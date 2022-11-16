@@ -1,0 +1,89 @@
+.login {
+  background-image: url(https://img.freepik.com/premium-photo/wooden-board-empty-table-kitchen-background_27550-1037.jpg?w=2000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border: 0.1px solid rgb(255, 255, 255);
+  // position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputBox {
+  // border: 5px solid blue;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #264653;
+  border-radius: 10%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  // position: absolute;
+  // top: 40%;
+  // right: 40%;
+  // margin: 10rem auto;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .icon {
+      padding-left: 10px;
+      font-size: 50px;
+      color: #264653;
+      // margin-left: 10px;
+    }
+    .btn {
+      width: 150px;
+      // padding: 10px;
+      font-size: 1.2rem;
+      background-color: #e9c46a;
+      border-radius: 10px;
+      margin: 10px;
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+    .inputPassword {
+      width: 250px;
+      height: 75px;
+      border-radius: 7px;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      background-color: #2a9d8f;
+      gap: 1.4rem;
+      .input {
+        // padding-left: 20px;
+        border: none;
+        outline: none;
+        background-color: #2a9d8f;
+        color: black;
+        width: 170px;
+      }
+    }
+    .inputUsername {
+      width: 250px;
+      height: 75px;
+      border-radius: 7px;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+      background-color: #2a9d8f;
+      .input {
+        // padding-left: 20px;
+        border: none;
+        outline: none;
+        background-color: #2a9d8f;
+        color: black;
+        width: 170px;
+      }
+    }
+  }
+}
